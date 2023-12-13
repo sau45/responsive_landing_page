@@ -1,0 +1,21 @@
+.discovering_wrapper{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    background-color: #2F313C;
+    padding: 3rem;
+}
+.discovering_wrapper h1{
+    color: #38B000;
+    text-align: center;
+}
+.discovering_list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+.discovering_list ul li{
+    color: white;
+}

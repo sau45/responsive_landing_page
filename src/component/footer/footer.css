@@ -1,0 +1,55 @@
+.footer_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+    background-color: black;
+}
+.footer_img_list{
+    padding: 1rem;
+}
+.footer_img_list img{
+    padding-left: 4rem;
+}
+.footer_img_list ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+}
+.newsletter_input{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 3rem;
+}
+.input_field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    
+}
+.input_field input{
+    position: relative;
+    min-height: 52px;
+    margin-right: -4px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+.input_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+/* .input_img img{
+    position: absolute;
+
+} */
+

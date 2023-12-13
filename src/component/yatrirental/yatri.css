@@ -1,0 +1,24 @@
+.yatri_rental{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+.yatri_rental h1{
+    color: #38B000;
+    text-align: center;
+}
+.yatri_rental ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+.yatri_rental ul li{
+    color: black;
+}
+.yatri_rental ul li span{
+    font-weight: 800;
+}

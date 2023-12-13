@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Explore from './component/explore/Explore';
+import Header from './component/header/Header';
+import WhytoChoose from './component/whytochooseus/WhytoChoose';
+import WhyChooseOneWay from './component/whytochooseus/WhyChooseOneWay';
+import Details from './component/details/Details';
+import Discovering from './component/discover/Discovering';
+import YatriRental from './component/yatrirental/YatriRental';
+import Footer from './component/footer/Footer';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Header/>
+   <Explore/>
+   <Details/>
+   <WhytoChoose/>
+   <WhyChooseOneWay/>
+   <Discovering/>
+   <YatriRental/>
+   <Footer/>
+    </>
   );
 }
 

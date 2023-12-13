@@ -1,0 +1,31 @@
+.head-container{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding: 1rem;
+}
+.logo img{
+   
+    height: 3.5rem;
+    border-radius: 10px;
+
+}
+.middle-logo{
+    width: 342px;
+    border-radius: 39px;
+}
+
+.account-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:750px) {
+    .account-section{
+        display: none;
+    }
+    
+}

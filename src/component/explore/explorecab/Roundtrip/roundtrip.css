@@ -1,0 +1,23 @@
+.container1_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.3rem;
+   
+}
+
+.roundtrip_input{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.roundtrip_input input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+   
+}
+.roundtrip_input p{
+    font-weight: 800;
+}

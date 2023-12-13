@@ -1,0 +1,103 @@
+.main-container{
+    
+    max-width: 1151px;
+    border-radius: 13px;
+    background-color: white;
+}
+
+.main_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 3rem;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.button-container .three_button {
+    
+    width: 100%;
+    display: flex;
+    height: 35.36px;
+   justify-content: center;
+   align-items: center;
+    gap: 1rem;
+    
+}
+.two_button {
+    display: flex;
+    gap: 1rem;
+}
+.two_button button{
+    
+    width: 130px;
+    height: 23.36px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: .9s;
+    box-shadow: 2px 1px 0px 1px gray;
+}
+.two_button button:hover{
+    background-color: #38B000;
+}
+
+ .outstation {
+
+    height: 35.36px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 0px 1px gray;
+    transition: .9s;
+    
+}
+ .outstation:hover{
+    background-color: #38B000;
+
+}
+ .location{
+   
+   
+    width: 180px;
+    height: 35.36px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 1px 0px 1px gray;
+    transition: .9s;
+}
+.location:hover{
+    background-color: #38B000;
+}
+ .airport{
+   
+   
+    width: 180px;
+    height: 35.36px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: .9s;
+    box-shadow: 2px 1px 0px 1px gray;
+}
+.airport:hover{
+    background-color: #38B000;
+}
+
+.explore-cab-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+    width: 8rem;
+    border-radius: 5px;
+    transition: 0.9s;
+}
+.explore-cab-button:hover{
+
+    background-color: #38B000;
+}

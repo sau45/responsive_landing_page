@@ -1,0 +1,28 @@
+.details_container{
+   
+ display:  flex;
+ gap: 4rem;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ padding: 1rem;
+}
+
+.details_container2{
+    color: #fff;
+    padding: 2rem;
+}
+
+.details_child{
+    display:  flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.cont2_child{
+ max-width: 650px;
+}
